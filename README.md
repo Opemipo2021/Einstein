@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Einstein is a Saas that goes beyond the point of imagination to give you the best of result with Einstein's conversation, code generation, image generation, video generation and music generation models, you can do anything.
+
+Einstein is THINKING
 
 ## Getting Started
 
