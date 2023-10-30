@@ -19,7 +19,6 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
 import axios from "axios";
 import { Empty } from "@/components/empty";
 import { Loader } from "@/components/loader";
@@ -99,13 +98,14 @@ const MusicPage = () => {
                         </div>
                     )}
                     {!music && !isLoading && (
-                        <div>
-                            <Empty label="No Music generated." />
-                        </div>
+                        <Empty label="No music generated" />
                     )}
-                    <div>
-                        Music will be generated here.
-                    </div>
+                    {music && (
+                        <audio controls className="w-full mt-8">
+                            <source src={music} />
+                        </audio>
+                    )}
+
                 </div>
             </div>
         </div>
