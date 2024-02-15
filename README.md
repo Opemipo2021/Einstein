@@ -1,6 +1,6 @@
 Einstein is a Saas that goes beyond the point of imagination to give you the best of result with Einstein's conversation, code generation, image generation, video generation and music generation models, you can do anything.
 
-Einstein is THINKING
+Einstein is THINKING - By Kory
 
 ## Getting Started
 
